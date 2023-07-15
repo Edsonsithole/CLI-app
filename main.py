@@ -2,7 +2,7 @@ def main():
     # initializing book list
      try:   
         bookslist = []
-        infile = open("theBookList", "r")
+        infile = open("theBookList.txt", "r")
         line = infile.readline()
         while line:
             bookslist.append(line.rstrip("\n").split(","))
